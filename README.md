@@ -6,7 +6,7 @@
 This package exposes an interface for "normalizing" JPEG images that have
 their orientation EXIF encoded.  This library was designed for working with
 images uploaded from phone cameras that usually have their orientation
-tagged, which results in a rotated/mirrored images when using the
+tagged, which results in rotated/mirrored images when using the
 Go image/jpeg library.  Supports little-endian and big-endian EXIF encodings,
 as well as all possible tag transformations.
 
